@@ -1,7 +1,7 @@
 body {
     font-family: Garamond, serif;
     color: #444c64;
-    background-color: #edf6f9;
+    background-color: #ffffff;
     margin: 0;
     padding: 0;
 }
@@ -33,6 +33,10 @@ nav ul li {
 nav ul li a {
     text-decoration: none;
     color: #5c6b83;
+}
+
+nav ul li a:hover {
+    color: #edf6f9;
 }
 
 main {
