@@ -1,5 +1,5 @@
 body {
-    font-family: Monaco, sans-serif;
+    font-family: Garamond, serif;
     color: #444c64;
     background-color: #edf6f9;
     margin: 0;
@@ -16,7 +16,7 @@ header {
 }
 
 .logo img {
-    max-height: 50px;
+    max-height: 100px;
 }
 
 nav ul {
