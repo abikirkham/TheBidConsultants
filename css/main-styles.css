@@ -90,6 +90,34 @@ ul li, ol li {
 }
 
 
+/* styles for our team page */
+
+.profile {
+    margin-bottom: 40px;
+}
+
+/* Styles for tablets and larger screens */
+@media only screen and (min-width: 768px) {
+    /* Arrange profiles in a grid layout */
+    #profile-section {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 20px;
+    }
+}
+
+/* Styles for desktop screens */
+@media only screen and (min-width: 992px) {
+    /* Increase margin-bottom for profiles */
+    .profile {
+        margin-bottom: 60px;
+    }
+}
+
+
+
+
+
 footer {
     background-color: #ffffff;
     padding: 20px;
