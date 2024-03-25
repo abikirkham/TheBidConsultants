@@ -43,9 +43,53 @@ main {
     padding: 20px;
 }
 
+/* Adjustments for full-screen sections */
 section {
+    height: 100vh; /* 100% of viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+/* Styling for content within sections */
+section .content {
+    max-width: 800px;
+    margin: auto;
+}
+
+section h2 {
+    margin-bottom: 20px;
+}
+
+section p {
     margin-bottom: 40px;
 }
+
+/* Styling for Call To Action button */
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #5c6b83;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #444c64;
+}
+
+/* Styling for lists within sections */
+ul, ol {
+    text-align: left;
+    margin-left: 30px;
+}
+
+ul li, ol li {
+    margin-bottom: 10px;
+}
+
 
 footer {
     background-color: #ffffff;
